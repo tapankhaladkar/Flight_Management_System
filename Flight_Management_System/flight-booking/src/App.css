@@ -1,0 +1,209 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.nav__logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links .link {
+  margin-right: 1rem;
+}
+
+.nav__links .link a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn2 {
+  padding: 0.5rem 1rem;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.section__container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.header__container {
+  background-color: #f4f4f4;
+}
+
+.booking__container,
+.plan__container,
+.memories,
+.lounge__container,
+.travellers__container {
+  margin-top: 2rem;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+  display: block; /* Ensures the image doesn't have extra space below */
+  max-height: 500px; /* Optional: limits the height */
+}
+
+/* Add these styles in your App.css or a separate CSS file for BookingSection */
+
+.booking__container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 2rem auto;
+  max-width: 600px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.booking__nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 1rem;
+}
+
+.booking__nav span {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.booking__nav span:hover {
+  color: #007bff;
+  transform: translateY(-2px);
+}
+
+.form__group2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.form__group2 span {
+  margin-right: 1rem;
+  color: #007bff;
+  font-size: 1.5rem;
+}
+
+.input__content2 {
+  width: 100%;
+}
+
+.input__group2 {
+  position: relative;
+  width: 100%;
+}
+
+.input__group2 input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.input__group2 input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.input__group2 label {
+  position: absolute;
+  top: -0.75rem;
+  left: 1rem;
+  background-color: white;
+  padding: 0 0.25rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.btn2 {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.btn2:hover {
+  background-color: #0056b3;
+}
+
+.btn2 i {
+  margin-right: 0.5rem;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Add more styles for other components based on their class names */
